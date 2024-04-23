@@ -19,10 +19,10 @@ history_rnn = model_rnn.fit(X_train, y_train, epochs=100, validation_split=0.2, 
 ```
 
 ### Training History
-<img src="Screenshots/rnn_history.png">
+<img src="screenshots/rnn_history.png">
 
 ### Predictions
-<img src="Screenshots/rnn_predictions.png">
+<img src="screenshots/rnn_predictions.png">
 
 ## GRU
 ### Architecture
@@ -43,10 +43,10 @@ history_gru = model_gru.fit(X_train, y_train, epochs=100, validation_split=0.2, 
 ```
 
 ### Training History
-<img src="Screenshots/gru_history.png">
+<img src="screenshots/gru_history.png">
 
 ### Predictions
-<img src="Screenshots/gru_predictions.png">
+<img src="screenshots/gru_predictions.png">
 
 ## LSTM
 ### Architecture
@@ -67,7 +67,7 @@ history_lstm = model_lstm.fit(X_train, y_train, epochs=100, validation_split=0.2
 ```
 
 ### Training History
-<img src="Screenshots/lstm_history.png">
+<img src="screenshots/lstm_history.png">
 
 ### Predictions
-<img src="Screenshots/lstm_predictions.png">
+<img src="screenshots/lstm_predictions.png">
